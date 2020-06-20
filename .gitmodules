@@ -1,0 +1,12 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/loren0223/ticketing-client.git
+[submodule "auth"]
+	path = auth
+	url = https://github.com/loren0223/ticketing-auth.git
+[submodule "tickets"]
+	path = tickets
+	url = https://github.com/loren0223/ticketing-tickets.git
+[submodule "common"]
+	path = common
+	url = https://github.com/loren0223/ticketing-common.git
