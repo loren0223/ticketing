@@ -31,6 +31,8 @@ spec:
                 secretKeyRef:
                   name: jwt-secret
                   key: JWT_KEY
+            - name: EXPIRATION_TIME_SECONDS
+              value: "900"
 ---
 apiVersion: v1
 kind: Service
