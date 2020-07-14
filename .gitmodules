@@ -13,3 +13,6 @@
 [submodule "orders"]
 	path = orders
 	url = https://github.com/loren0223/ticketing-orders.git
+[submodule "expiration"]
+	path = expiration
+	url = https://github.com/loren0223/ticketing-expiration.git
