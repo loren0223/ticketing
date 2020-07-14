@@ -37,6 +37,14 @@ build:
         manual:
           - src: "src/**/*.ts"
             dest: .
+    - image: agreeloren106001/ticketing-expiration
+      context: expiration
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: "src/**/*.ts"
+            dest: .
     - image: agreeloren106001/ticketing-client
       context: client
       docker:
