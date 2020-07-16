@@ -16,3 +16,6 @@
 [submodule "expiration"]
 	path = expiration
 	url = https://github.com/loren0223/ticketing-expiration.git
+[submodule "payments"]
+	path = payments
+	url = https://github.com/loren0223/ticketing-payments.git
